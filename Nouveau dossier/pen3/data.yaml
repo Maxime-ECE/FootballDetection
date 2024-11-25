@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['arbitre', 'ball', 'cage', 'gardien', 'joueur']
+
+roboflow:
+  workspace: v1-wfrvh
+  project: penalty-b3z15
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/v1-wfrvh/penalty-b3z15/dataset/5
